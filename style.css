@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#060606;;
+    font-size: 16px;
+    font-weight: 100;
+}
+.logo {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.signup{
+    border: none;
+    background-color:#e87a14;
+    padding: 10px 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.login{
+    color: #060606;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.content{
+    padding-top: 170px;
+    padding-left: 130px;
+}
+.content .main-text{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 25px;
+}
+.content .main-text h5{
+    display: flex;
+    color:#44c3eb ;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+.content .main-text p{
+    max-width: 100%;
+    width: 500px;
+    color: #060606;
+    font-weight: 300;
+    font-size:30px;
+    line-height: 45px;
+    letter-spacing: 5px;
+}
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background: #e87a14;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    font-size: 16px;
+
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+     bottom: 0;
+     right: 0;
+     text-align: right;
+} 
+.image img{
+    height: 100%;
+    padding-right: 150px;
+}
+
+/**css styling for login and sign up**/
+.bg7{
+    background: url(BackGrnd\ cover.png);
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+}
+.backbtn{
+    margin-top: 500px;
+    margin-left: 1000px;
+    display: flex;
+    padding: 100px;
+    color: #ffffff;
+}
+.backbtn i{
+    width: 100px;
+    height: 100px;
+}
+
+/**container**/
+.container{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.form{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+}
+.form img{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+.tbox{
+    padding: 10px 60px;
+    width: 65%;
+    margin: 20px ;
+    border: 1px solid #060606;
+    outline: none;
+    border-radius: 25px;
+    
+
+}
+.tbox input{
+    background: none;
+    outline: none;
+    border: none;
+    /* line-height: 12;
+    font-weight: 600;
+    font-size: 16px; */
+    color: #060606;
+    font-size: 13px;
+    margin-left: 15px;
+}
+/**right hand side**/
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+
+}
+.side img{
+    width: 500px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
